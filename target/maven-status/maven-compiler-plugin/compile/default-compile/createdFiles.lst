@@ -1,0 +1,10 @@
+com/mfi/trelli/models/Address.class
+com/mfi/trelli/models/Policy.class
+com/mfi/trelli/models/SecUnitType.class
+com/mfi/trelli/models/Duration.class
+com/mfi/trelli/models/Name.class
+com/mfi/trelli/models/BirthdayRange.class
+com/mfi/trelli/models/LicenseStatus.class
+com/mfi/trelli/models/Gender.class
+com/mfi/trelli/models/PolicyHolder.class
+com/mfi/trelli/models/Operator.class
