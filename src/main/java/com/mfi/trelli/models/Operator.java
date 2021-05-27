@@ -39,7 +39,7 @@ public class Operator {
     /**
      * Operator’s driver’s license number
      */
-    private int driversLicenseNumber;
+    private String driversLicenseNumber;
 
     /**
      * Operator’s relationship to policyholder
@@ -94,11 +94,11 @@ public class Operator {
         this.driversLicenseState = driversLicenseState;
     }
 
-    public int getDriversLicenseNumber() {
+    public String getDriversLicenseNumber() {
         return driversLicenseNumber;
     }
 
-    public void setDriversLicenseNumber(final int driversLicenseNumber) {
+    public void setDriversLicenseNumber(final String driversLicenseNumber) {
         this.driversLicenseNumber = driversLicenseNumber;
     }
 
