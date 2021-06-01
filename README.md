@@ -37,12 +37,16 @@ How I approached the problem:
 8) Update method in account for Ranchers insurance consideration.
 
 What improvements can be made:
-1) More testing for getters and setters. I Have created skeletons for them, but in general since getters and setters 
+1) Be more specific about exactly which fields are missing from the Address and the Name section.
+   Currently, the output is insinuating yes, the address and name are required and incorrect,
+   but it can be improved to detail if it is the street, city, first name, last name, etc. that 
+   are missing from those types.
+2) More testing for getters and setters. I Have created skeletons for them, but in general since getters and setters 
    will always pass, I decided to spend my time on logic instead. However, I did write tests for the "Policy" object as an example.
-2) PolicyTermMonths can be an enum since we always know what set of values it will be.
-3) Null/Nonnull annotations to method parameters and return types.
-4) Make type enum if we knew all Address types in advance.
-5) Camelcase sec_unit_* variables in Address class.
+3) PolicyTermMonths can be an enum since we always know what set of values it will be.
+4) Null/Nonnull annotations to method parameters and return types.
+5) Make type enum if we knew all Address types in advance.
+6) Camelcase sec_unit_* variables in Address class.
    
 General notes:
 1) Did not add "suffix" or "plus4" as a parameter in the Address object since it is not in the 
