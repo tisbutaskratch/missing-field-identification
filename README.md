@@ -32,17 +32,17 @@ How I approached the problem:
 3) Create test for Policy class as an example of getters and setters testing.
 4) Create a class to store required fields per insurance.
 5) Create functions for each required field.
-6) White box solution with provided json data to ensure correctness and make improvements as required.
-
-Nitpicks:
-1) Make type enum if we knew all Address types in advance.
-2) Camelcase sec_unit_* variables in Address class.
+6) Use these functions in a singular function that ties them together.
+7) White box solution with provided json data to ensure correctness and make improvements as required.
+8) Update method in account for Ranchers insurance consideration.
 
 What improvements can be made:
 1) More testing for getters and setters. I Have created skeletons for them, but in general since getters and setters 
    will always pass, I decided to spend my time on logic instead. However, I did write tests for the "Policy" object as an example.
 2) PolicyTermMonths can be an enum since we always know what set of values it will be.
 3) Null/Nonnull annotations to method parameters and return types.
+4) Make type enum if we knew all Address types in advance.
+5) Camelcase sec_unit_* variables in Address class.
    
 General notes:
 1) Did not add "suffix" or "plus4" as a parameter in the Address object since it is not in the 
