@@ -7,9 +7,14 @@ It was originally a general required fields reader, but its signature has been m
 only The Colonel Insurance.
 
 To Run:
-1) Open project in Intellij and run the Main function, you should see the required fields
-   in the console output.
-2) The function reads from policies.json file on the same level as the source folder. If
+1) Double-click on the "missing-field-identification.jar" in the root folder.
+   OR
+1) Open terminal, go to the root of the project where the jar is and run this command without quotes
+   "java -jar missing-field-identification.jar".
+   OR
+1) Open project in Intellij and run the Main function.
+2) You should see the required fields in the console output.
+2) The function reads from policies.json file on the same level as the source folder/jar. If
    you want to run with a different set of data; this is the location where the json file
    needs to be stored.
 3) I have set the iterator in the main function to read policies from this file,
