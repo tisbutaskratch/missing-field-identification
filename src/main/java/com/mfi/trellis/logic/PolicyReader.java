@@ -16,7 +16,12 @@ import java.util.List;
  * Read stored data from the policy.
  */
 public class PolicyReader {
-
+    /**
+     * Retrieve fields that are required and missing
+     * @param policy object containing date per policy. Including policy holder and operators information.
+     * @param insuranceType type of insurance
+     * @return list of fields that are missing data
+     */
     public static List<String> retrieveRequiredFields(final Policy policy, final InsuranceType insuranceType) {
         switch (insuranceType) {
             case TheColonelInsurance:

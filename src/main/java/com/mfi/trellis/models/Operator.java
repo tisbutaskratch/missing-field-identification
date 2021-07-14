@@ -4,15 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.mfi.trellis.enums.Gender;
 import com.mfi.trellis.enums.LicenseStatus;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@Getter
-@Setter
-@EqualsAndHashCode
-@ToString
+@Data
 public class Operator {
     /**
      * Is the operator the policy holder

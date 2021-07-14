@@ -2,15 +2,9 @@ package com.mfi.trellis.models;
 
 import java.util.Date;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@Getter
-@Setter
-@EqualsAndHashCode
-@ToString
+@Data
 public class BirthdayRange {
     /**
      * Start of operator’s birthday range

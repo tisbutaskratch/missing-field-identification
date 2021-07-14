@@ -1,14 +1,8 @@
 package com.mfi.trellis.models;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@Getter
-@Setter
-@EqualsAndHashCode
-@ToString
+@Data
 public class Address {
     /**
      * Street number for policy holder’s address
