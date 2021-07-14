@@ -81,11 +81,6 @@ public class PolicyTest {
     }
 
     @Test
-    public void testHashCode() {
-        assertEquals(policy.hashCode(), -779599631);
-    }
-
-    @Test
     public void testToString() {
         policy.setIssuer(ISSUER);
         assertThat(policy.toString(), CoreMatchers.containsString(ISSUER));
